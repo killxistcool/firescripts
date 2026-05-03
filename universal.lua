@@ -1,0 +1,18 @@
+local gameId = game.GameId
+local version = "1.1"
+print("=== Loader version: " .. version .. " ===")
+
+if gameId == 2142948266 then
+    print("Loading Project Slayers script...")
+    loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/fdc7ddd6c83052129f0ac1e160ece3ebf95c49f55a333eee47f19c7160089ea6/download"))()
+
+elseif gameId == 7436755782 then
+    print("Loading Grow a Garden script...")
+    loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/66758918b9c0087a3003138b6042d7bcbebdab3ba8794df8ad270065dc1f9ab7/download"))()
+
+else
+    game.Players.LocalPlayer:Kick("No script found for this game!")
+
+end
+
+-- Hello skids D:
