@@ -11,7 +11,7 @@ elseif gameId == 7436755782 then
     loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/66758918b9c0087a3003138b6042d7bcbebdab3ba8794df8ad270065dc1f9ab7/download"))()
 
 elseif gameId == 66654135 then
-    print("Loading Murder Mystery 2 script..."
+    print("Loading Murder Mystery 2 script...")
     loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/87080c7b257bf5823113465709a972726ec7604afb5b33faa8ecd3343f9a957d/download"))()
 
 else
